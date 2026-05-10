@@ -10,39 +10,39 @@ export default {
         sans: ['"Tajawal"', 'sans-serif'],
       },
       colors: {
-        background: '#f4f9f9',
-        surface: '#ffffff',
+        background: '#F5F3E7', // Cream background from identity
+        surface: '#FFFFFF',
         primary: {
-          50: '#f0fdfa',
-          100: '#ccfbf1',
-          200: '#99f6e4',
-          300: '#5eead4',
-          400: '#2dd4bf',
-          500: '#14b8a6', // Teal / Sea green
-          600: '#0d9488',
-          700: '#0f766e',
+          50: '#f4f8f3',
+          100: '#e8f1e6',
+          200: '#d1e2cd',
+          300: '#b9d4b4',
+          400: '#A8C69F', // Sage Green (Identity Primary)
+          500: '#8ba783',
+          600: '#6e8867',
+          700: '#52694b',
         },
         secondary: {
-          50: '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          300: '#93c5fd',
-          400: '#60a5fa',
-          500: '#3b82f6', // Soft blue
-          600: '#2563eb',
+          50: '#fefcf0',
+          100: '#fdfae1',
+          200: '#fbf5c3',
+          300: '#f9f0a5',
+          400: '#F1E066', // Pale Yellow (Identity Secondary)
+          500: '#d9c85c',
+          600: '#c1b151',
         },
         accent: {
-          50: '#fdf4ff',
-          100: '#fae8ff',
-          200: '#f5d0fe',
-          300: '#f0abfc',
-          400: '#e879f9',
-          500: '#d946ef', // Soft pastel pink/purple for contrast
+          50: '#fff7f2',
+          100: '#ffefdb',
+          200: '#ffdcb3',
+          300: '#ffc18a',
+          400: '#fb9f5f',
+          500: '#E99E75', // Peach/Terracotta (Identity Accent)
         },
         text: {
-          primary: '#1e293b',
-          secondary: '#64748b',
-          muted: '#94a3b8',
+          primary: '#1A1A1A', // Dark charcoal from identity
+          secondary: '#4A4A4A',
+          muted: '#7A7A7A',
         }
       },
       boxShadow: {
